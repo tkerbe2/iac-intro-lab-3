@@ -21,12 +21,21 @@ This demo creates the following resources:
 
 # 💡 Terms and Concepts
 
-Before getting started lets briefly touch on some high-level information about Terraform Cloud or HCP Terraform. HCP Terraform is a hosted service that allows you to manage your Terraform code, safely store variables, store remote state, and generally collaborate together with other team members. If you recall in our Azure demonstration we deployed some code via Cloud Shell. The state file for that code was local on that Cloud Shell session and when the Cloud Shell session ended, the state file would be deleted. Additionally if we had other team members that wanted to modify our Azure code and change the resources, they would have to do so on that Cloud Shell session, where the state file was stored. With HCP Terraform you can have workspaces where other team members can see exactly what you're doing and contribute to the code as well. 
+Before getting started lets briefly touch on some high-level concepts and terms about Terraform Cloud or HCP Terraform. HCP Terraform is a hosted service that allows you to manage your Terraform code, safely store variables, store remote state, and generally collaborate together with other team members. If you recall in our Azure demonstration we deployed some code via Cloud Shell. The state file for that code was local on that Cloud Shell session and when the Cloud Shell session ended, the state file would be deleted. Additionally if we had other team members that wanted to modify our Azure code and change the resources, they would have to do so on that Cloud Shell session, where the state file was stored. With HCP Terraform you can have workspaces where other team members can see exactly what you're doing and contribute to the code as well. These workspaces can be organized under projects and within organizations.
 
-In HCP Terraform there are a few levels of organization that are important to understand. Firstly, an Organization, this is something you will create immediately and it is the parent object to your projects and workspaces. 
+- In HCP Terraform the highest level object is an organization. Organizations are the main parent object of your projects and workspaces.
+- Projects are like containers to help separate workspaces in a logical way. For example you may have a project that is for a specific set of infrastructure being built and you want all the workspaces that deploy these different pieces of infrastructure, to be organized under one project to track things like spending and resource allocation. 
+- By default HCP Terraform has a Default Project that your workspaces get assigned to. You can also assign variables and variable sets at the project level so that all your workspaces underneath can obtain the variables automatically. 
+- A workspace is a like the lowest level of object and has to be assigned to a project. If a workspace is not assigned to a specific project it will be assigned to Default Projeect.
+- Workspaces operate separately from one another and a workspace is where your code can be reviewed and deployed.
+- Workspaces have store state files and can even have their own workspace specific variables. 
 
-- Projects are like containers to help separate workspaces in a logical way. For example you may have a project that is for a specific set of infrastructure being built and you want all the workspaces that deploy these different pieces of infrastructure, to be organized under one project. 
-- By default HCP Terraform has a Default-Project that your workspaces get assigned to. You can also assign variables and variable sets at the project level so that all your workspaces underneath can obtain the variables automatically. 
+# Hierarchy Pictured
+
+In this example I've created a fake org (tkdev) and some fake projects with fake workspaces. This is just an example of what HCP Terraform hierarchy can look like. 
+
+![image](https://github.com/user-attachments/assets/35fd4ce5-fdf2-484c-b42b-44894697f2f4)
+
 
 <br>
 
@@ -39,6 +48,8 @@ In HCP Terraform there are a few levels of organization that are important to un
 
 
 <br>
+
+***
 
 # Lab Steps
 
