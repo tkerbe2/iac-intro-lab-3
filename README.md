@@ -89,8 +89,9 @@ In this example I've created a fake org (tkdev) and some fake projects with fake
 - You most likely don't have any repos with Terraform code yet. That is okay we can just cancel out of this for now.
 - I wanted to show you how to connect to repos in GitHub with HCP Terraform before we proceed to the next labs.
 
+<br>
 
-
+***
 
 # ✨ Congratulations!
 
