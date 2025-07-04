@@ -9,15 +9,9 @@ In this lab you will setup your brand new HCP Terraform account. If you have not
 
 - [HCP Terraform](https://app.terraform.io/session)
 
-### Resources Created:
-This demo creates the following resources:
-
-- An IAM Account
-- MFA 
-- Custom access portal URL
-- Access key and secret key
-
 <br>
+
+***
 
 # 💡 Terms and Concepts
 
@@ -61,22 +55,38 @@ In this example I've created a fake org (tkdev) and some fake projects with fake
 
 ![image](https://github.com/user-attachments/assets/45460ac9-8c0e-4658-ad36-753b9550d7ef)
 
+<br>
+
+***
+
+### 2. Create an Organization
+
+- You should immediately be presented the option to create a new organization.
+- An organization is the highest level object in HCP Terraform.
+
+![image](https://github.com/user-attachments/assets/3e7d5deb-799d-4ee3-9f56-83ea6d98c9c6)
 
 <br>
 
 ***
 
-### 2. Create an organization
+### 3. Create a Workspace
 
-- You should immediately be presented the option to create a new organization.
-- An organization is the highest level object in HCP Terraform.
+- Go to the menu on the left and click on Workspaces and create a new workspace.
+- You will have to log into your GitHub account and authorize Terraform Enterprise.
 
-  -- Organization 
-    -- Workspace
-![image](https://github.com/user-attachments/assets/3e7d5deb-799d-4ee3-9f56-83ea6d98c9c6)
+![image](https://github.com/user-attachments/assets/50952236-8fae-4c10-8923-779fc63b7e6a)
+
+- Install Terraform Cloud and allow all repos.
+
+![image](https://github.com/user-attachments/assets/44e5b150-efe5-4c9a-b433-9c46c01c30ae)
+![image](https://github.com/user-attachments/assets/d02ef354-64a2-4ff1-8209-91f0320dfbc2)
 
 
+### 4. Select a repo
 
+- You most likely don't have any repos with Terraform code yet. That is okay we can just cancel out of this for now.
+- I wanted to show you how to connect to repos in GitHub with HCP Terraform before we proceed to the next labs.
 
 
 
@@ -86,10 +96,11 @@ In this example I've created a fake org (tkdev) and some fake projects with fake
 ***
 
 You've finished this lab and have completed the following items:
-- ✅ Created a new AWS account.
-- ✅ Logged into your AWS root account.
-- ✅ Created an AWS IAM user that will be used for Terraform.
-- ✅ Created an access key and secret key with the new user.
+- ✅ Created a new HCP Terraform account.
+- ✅ Created a new HCP Terraform organization.
+- ✅ Linked and installed Terraform Enterprise to your GitHub account.
+- ✅ Learned how to create a workspace and connect to a GitHub repo.
+
 
 ***
 
