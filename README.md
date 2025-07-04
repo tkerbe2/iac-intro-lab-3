@@ -30,6 +30,8 @@ Before getting started lets briefly touch on some high-level concepts and terms 
 - Workspaces operate separately from one another and a workspace is where your code can be reviewed and deployed.
 - Workspaces have store state files and can even have their own workspace specific variables. 
 
+<br>
+
 # 🗺️ HCP Terraform Hierarchy Pictured
 
 In this example I've created a fake org (tkdev) and some fake projects with fake workspaces. This is just an example of what HCP Terraform hierarchy could look like. In this lab you will have a single org and we will use the built-in Default Project.
