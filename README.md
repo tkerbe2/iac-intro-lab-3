@@ -72,9 +72,10 @@ In this example I've created a fake org (tkdev) and some fake projects with fake
 
 ### 3. Create a Workspace
 
-- Go to the menu on the left and click on Workspaces and create a new workspace.
+- Go to the menu on the left and click on Workspaces and create a new Workspace.
 - You will have to log into your GitHub account and authorize Terraform Enterprise.
 
+![image](https://github.com/user-attachments/assets/f9de9b18-e373-4d4d-acb1-b335e428dae5)
 ![image](https://github.com/user-attachments/assets/50952236-8fae-4c10-8923-779fc63b7e6a)
 
 - Install Terraform Cloud and allow all repos.
