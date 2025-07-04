@@ -19,7 +19,7 @@ This demo creates the following resources:
 
 <br>
 
-# Some Theory 💡
+# 💡 Terms and Concepts
 
 Before getting started lets briefly touch on some high-level information about Terraform Cloud or HCP Terraform. HCP Terraform is a hosted service that allows you to manage your Terraform code, safely store variables, store remote state, and generally collaborate together with other team members. If you recall in our Azure demonstration we deployed some code via Cloud Shell. The state file for that code was local on that Cloud Shell session and when the Cloud Shell session ended, the state file would be deleted. Additionally if we had other team members that wanted to modify our Azure code and change the resources, they would have to do so on that Cloud Shell session, where the state file was stored. With HCP Terraform you can have workspaces where other team members can see exactly what you're doing and contribute to the code as well. 
 
@@ -31,7 +31,7 @@ In HCP Terraform there are a few levels of organization that are important to un
 <br>
 
 
-> Suggested Reading 📖 
+> 📖 Suggested Reading
 - [What HCP Terraformn](https://developer.hashicorp.com/terraform/cloud-docs)
 - [Organizations](https://developer.hashicorp.com/terraform/cloud-docs/users-teams-organizations/organizations)
 - [Projects](https://developer.hashicorp.com/terraform/cloud-docs/projects)
