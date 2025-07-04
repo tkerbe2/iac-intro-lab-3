@@ -91,8 +91,6 @@ In this example I've created a fake org (tkdev) and some fake projects with fake
 
 <br>
 
-***
-
 # ✨ Congratulations!
 
 ***
