@@ -3,7 +3,7 @@
 <br>
 
 
-# 🧪 HCP Terraform / Terraform Cloud New Account Setup - Guided Lab
+# 🧪 Lab 3 -HCP Terraform / Terraform Cloud New Account Setup
 
 In this lab you will setup your brand new HCP Terraform account. If you have not yet created an HCP Account account please do so before starting the steps in this lab. Once the account is created proceed with the steps below.
 
