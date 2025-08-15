@@ -36,7 +36,7 @@ In this example I've created a fake org (tkdev) and some fake projects with fake
 <br>
 
 
-> 📖 Suggested Reading
+# 📖 Suggested Reading
 - [What HCP Terraformn](https://developer.hashicorp.com/terraform/cloud-docs)
 - [Organizations](https://developer.hashicorp.com/terraform/cloud-docs/users-teams-organizations/organizations)
 - [Projects](https://developer.hashicorp.com/terraform/cloud-docs/projects)
