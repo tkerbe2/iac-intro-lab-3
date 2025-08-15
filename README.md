@@ -37,7 +37,7 @@ In this example I've created a fake org (tkdev) and some fake projects with fake
 
 
 # 📖 Suggested Reading
-- [What HCP Terraformn](https://developer.hashicorp.com/terraform/cloud-docs)
+- [What is HCP Terraformn](https://developer.hashicorp.com/terraform/cloud-docs)
 - [Organizations](https://developer.hashicorp.com/terraform/cloud-docs/users-teams-organizations/organizations)
 - [Projects](https://developer.hashicorp.com/terraform/cloud-docs/projects)
 - [Workspaces](https://developer.hashicorp.com/terraform/cloud-docs/workspaces)
